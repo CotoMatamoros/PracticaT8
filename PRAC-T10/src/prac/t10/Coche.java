@@ -8,9 +8,15 @@ package prac.t10;
  *
  * @author gonza
  */
-public class Coche{
+public class Coche extends Vehiculo{
     private String tipoCarroceria;
     private int capacidadPasajeros;
+
+    public Coche(String marca, String modelo, int año, int precio) {
+        super(marca, modelo, año, precio);
+        this.tipoCarroceria = tipoCarroceria;
+        this.capacidadPasajeros = capacidadPasajeros;
+    }
 
     
 }
