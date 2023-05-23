@@ -9,5 +9,8 @@ package prac.t10;
  * @author gonza
  */
 public class Vehiculo {
-    
+    private String marca;
+    private String modelo;
+    private int año;
+    private int precio;
 }
