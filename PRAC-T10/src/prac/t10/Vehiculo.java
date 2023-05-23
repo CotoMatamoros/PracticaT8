@@ -13,4 +13,14 @@ public class Vehiculo {
     private String modelo;
     private int año;
     private int precio;
+    
+    //Constructor
+
+    public Vehiculo(String marca, String modelo, int año, int precio) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.año = año;
+        this.precio = precio;
+    }
+    
 }
