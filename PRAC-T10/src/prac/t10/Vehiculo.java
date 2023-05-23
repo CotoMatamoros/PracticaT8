@@ -8,7 +8,7 @@ package prac.t10;
  *
  * @author gonza
  */
-public class Vehiculo {
+public class Vehiculo implements Comparable<Vehiculo>{
     private String marca;
     private String modelo;
     private int año;
@@ -55,6 +55,11 @@ public class Vehiculo {
 
     public void setPrecio(int precio) {
         this.precio = precio;
+    }
+
+    @Override
+    public int compareTo(Vehiculo otroVehiculo) {
+        return Double.compare(this.precio, otroVehiculo.getPrecio());
     }
     
 }
