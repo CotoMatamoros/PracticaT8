@@ -18,5 +18,22 @@ public class Coche extends Vehiculo{
         this.capacidadPasajeros = capacidadPasajeros;
     }
 
+    public String getTipoCarroceria() {
+        return tipoCarroceria;
+    }
+
+    public void setTipoCarroceria(String tipoCarroceria) {
+        this.tipoCarroceria = tipoCarroceria;
+    }
+
+    public int getCapacidadPasajeros() {
+        return capacidadPasajeros;
+    }
+
+    public void setCapacidadPasajeros(int capacidadPasajeros) {
+        this.capacidadPasajeros = capacidadPasajeros;
+    }
+    
+    
     
 }
